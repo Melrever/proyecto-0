@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+  
+    <title>Proyecto #0</title>
+</head>
+<body>
+   
+    <header>
+        <h2 class="logo">Mel</h2>
+        <nav class="navegacion">
+            <a href="#">Inicio</a>
+            <a href="#">Información</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+            <button class="btnLogin-popup">Ingresar</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Ingresar</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icono"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordarme-olvido">
+                    <label><input type="checkbox">Recordarme</label>
+                    <a href="#">Olvido contraseña?</a>
+                </div>
+                <button type="submit" class="btn">Ingresar</button>
+                <div class="login-regitrer">
+                    <p> ¿No está registrado? <a href="#" class="registro-link">Registrarse</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

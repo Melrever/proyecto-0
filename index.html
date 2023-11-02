@@ -22,6 +22,9 @@
     </header>
 
     <div class="wrapper">
+
+        <span class="icono-cerrar"><ion-icon name="close"></ion-icon></span>
+
         <div class="form-box login">
             <h2>Ingresar</h2>
             <form action="#">
@@ -40,8 +43,40 @@
                     <a href="#">Olvido contraseña?</a>
                 </div>
                 <button type="submit" class="btn">Ingresar</button>
-                <div class="login-regitrer">
+                <div class="ingresar-registro">
                     <p> ¿No está registrado? <a href="#" class="registro-link">Registrarse</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box registro">
+            <h2>Registro</h2>
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icono"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Nombre de Usuario</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icono"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="recordarme-olvido">
+                    <label><input type="checkbox">Acepto terminos y condiciones</label>
+                    
+                </div>
+                <button type="submit" class="btn">Registrarse</button>
+                <div class="ingresar-registro">
+                    <p> ¿Ya está registrado? <a href="#" class="ingreso-link">Ingresar</a></p>
                 </div>
             </form>
         </div>
